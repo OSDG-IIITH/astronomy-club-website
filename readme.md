@@ -5,6 +5,14 @@
 - Nishant Sachdeva
 - KV Aditya
 
+## New Contributors:
+1. Clone the repo on your local machine
+2. Install hugo and the associated theme as mentioned below.
+3. Try to create a sample club and complete all the steps
+4. Find issues with the club website
+5. Provide ideas and suggestions for improvement
+6. Contribute by providing content or help in designing the pages 
+
 # Club Website Creation 
 
 The website is built with Hugo. 
