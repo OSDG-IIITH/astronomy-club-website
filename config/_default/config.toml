@@ -91,6 +91,7 @@ summaryLength = "10"
 
 [params]
 logo = "images/logo.png"
+astronomy_club_logo = "images/astro_logo.png"
 club_nameURL = "https://www.clubs.iiit.ac.in/clubs/club_name"
 
 # Meta data
