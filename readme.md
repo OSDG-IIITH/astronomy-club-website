@@ -21,13 +21,12 @@ The website is built with Hugo.
 
 1. Go to the `content` folder and create a folder for your club. 
 2. A sample club has been given, so copy all the files in that sample club to the newly created folder.
-3. In every `_index.md` change the `type: club_name/` to one `type:your_Club_name/`
+3. `grep -r club_name` in the content directory and change every instance of it in your folder to that of your folder name
 4. Go back to the root directory
 5. Now go to `layouts` folder,
 6. Cooy the sample folder given.
 7. Rename it to be your club name. 
 
-1. Cd into the content folder and copy the sample `club_name` folder. 
 2. Rename it to the desired name. The path reach your clubs website now is `localhost:xxxx/clubs/club_name`. (xxx is your port number on the local machine. Typcially it is 1313 for this.)
 3. `grep -r club_name` in the content directory and change every instance of it in your folder to that of your folder name
 
@@ -39,11 +38,6 @@ The website is built with Hugo.
 6. `activities.yml` contains the list of major events your club does and gets listed in the homepage of your club. 
 7. `event.yml` shows a list of events conducted and gets displayed as a gallery, on the events page. 
 5. Modify the `title` and `type` in `event.yml` to reflect the events in `activities.yml`.
-
-
-1. Go back to root. 
-2. cd into `layouts` and copy the sample `club_name` folder and paste it in the same directory while replacing `club_name` with your club name.
-3. `grep -r club_name` in the content directory and change every instance of it in your folder to that of your folder name
 
 1. Go to `config/_default/config.toml`
 2. Copy the `menu.club_name` section and paste it again.

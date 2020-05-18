@@ -101,7 +101,7 @@ service:
       highlighted : false
 
 # Upcoming Events 
-portfolio:
+portfolio: 
   enable : true
   item:
     - image : "images/portfolio/item-1.png"
