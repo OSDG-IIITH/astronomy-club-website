@@ -9,11 +9,11 @@
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="{{ .Site.BaseURL }}/club_name">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
+          <a class="nav-link" href="{{ .Site.BaseURL }}/astronomy_club">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
 
         <script> console.log(" {{ printf "Hi" }}")</script>
-        {{ range .Site.Menus.club_name }}
+        {{ range .Site.Menus.astronomy_club }}
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"

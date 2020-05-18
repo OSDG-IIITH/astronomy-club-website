@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Hi! This is CLUB_NAME"
+  title : "Hi! This is Astronomy Club"
   socialLinks:
     - icon : "ti-facebook"
       URL : "#"
@@ -17,9 +17,9 @@ banner:
 # about
 about:
   enable : true
-  content : "Club About"
+  content : "We at Astronomy Club @ IIITH aim to improve the interest about astronomy among students. We organise events like StarGazing Sessions, Informative Sessions, Messier Marathons, Star Parties and more."
   button:
-    btnText : "know more"
+    btnText :  "Know More"
     URL : "/clubs/astronomy_club/about"
 
 # skill

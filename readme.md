@@ -59,7 +59,7 @@ The website is built with Hugo.
 4. Make sure to install the theme into the right dir, ```git clone https://github.com/themefisher/kross-hugo.git themes/kross-hugo-portfolio-template/   ```
 
 5. Run `hugo server` to run the server on your local machine. Execute this command in the root directory of the project. 
-6. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site. 
+6. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site.  
 7. Make sure to have the latest version Hugo installed. 
 
 ## Adding Content 
