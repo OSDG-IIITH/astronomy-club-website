@@ -85,7 +85,7 @@ summaryLength = "10"
     weight = 4
     
   [[menu.astronomy_club]]
-    name = "Contact"
+    name = "Contact" 
     URL = "astronomy_club/contact"
     weight = 5
 
@@ -93,12 +93,14 @@ summaryLength = "10"
 logo = "images/logo.png"
 astronomy_club_logo = "images/astro_logo.png"
 club_nameURL = "https://www.clubs.iiit.ac.in/clubs/club_name"
+theme_color = "#41228e"
 
 # Meta data
 
 description = "This is meta description"
 author = "Themefisher"
 home = "Home"
+
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 
@@ -114,3 +116,4 @@ googleAnalitycsID = "Your ID"
   email = "steve.fruits@email.com"
   phone = "+880 2544 658 256"
   address = "125/A, CA Commercial Area, California, USA"
+  
