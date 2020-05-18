@@ -1,0 +1,115 @@
+baseURL = "https://www.clubs.iiit.ac.in/clubs/"
+languageCode = "en-us"
+title = "IIIT Student Clubs"
+theme = "kross-hugo-portfolio-template"
+summaryLength = "10"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"
+
+
+# navigation
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight = 4
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
+  [[menu.club_name]]
+    name = "About"
+    URL = "club_name/about"
+    weight = 2
+    
+  [[menu.club_name]]
+    name = "Archives"
+    URL = "club_name/archive"
+    weight = 3
+    
+  [[menu.club_name]]
+    name = "Events"
+    URL = "club_name/events"
+    weight = 4
+    
+  [[menu.club_name]]
+    name = "Contact"
+    URL = "club_name/contact"
+    weight = 5
+
+  [[menu.astronomy_club]]
+    name = "About"
+    URL = "astronomy_club/about"
+    weight = 2
+    
+  [[menu.astronomy_club]]
+    name = "Archives"
+    URL = "astronomy_club/archive"
+    weight = 3
+    
+  [[menu.astronomy_club]]
+    name = "Events"
+    URL = "astronomy_club/events"
+    weight = 4
+    
+  [[menu.astronomy_club]]
+    name = "Contact"
+    URL = "astronomy_club/contact"
+    weight = 5
+
+[params]
+logo = "images/logo.png"
+club_nameURL = "https://www.clubs.iiit.ac.in/clubs/club_name"
+
+# Meta data
+
+description = "This is meta description"
+author = "Themefisher"
+home = "Home"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  [params.contact]
+  enable = true
+  formAction = "#" #contact form works with formspree.io
+
+  [params.footer]
+  email = "steve.fruits@email.com"
+  phone = "+880 2544 658 256"
+  address = "125/A, CA Commercial Area, California, USA"
