@@ -1,0 +1,74 @@
+# List of Event Types  
+list:
+  - title : "Monthly Quiz"
+    type : "mq"
+    
+  - title : "Flagship Event"
+    type : "fs"
+    
+  - title : "asd"
+    type : "lol"
+
+# List of Events, update each year. 
+item:
+  - images : 
+    - "images/portfolio/item-1.png"
+    - "images/portfolio/item-2.png"
+    - "images/portfolio/item-3.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : amazon-increase-income.1
+    eventType:
+      - type: "mq"
+      - type: "fs"
+      
+  - images : 
+    - "images/portfolio/item-2.png"
+    eventURL : "amazon-increase-income.2"
+    eventTitle : "amazon-increase-income.2"
+    eventType:
+      - type: "lol"
+      
+  - images : 
+    - "images/portfolio/item-3.png"
+    eventURL : "#"
+    eventType:
+      - type: "fs"
+      
+  - images :
+    -  "images/portfolio/item-6.png"
+    eventURL : "#"
+    eventType:
+      - type: "mq"
+      - type: "lol"
+      
+  - images : 
+    - "images/portfolio/item-8.png"
+    eventURL : "#"
+    eventType:
+      - type: "fs"
+      
+  - images : 
+    - "images/portfolio/item-5.png"
+    eventURL : "#"
+    eventType:
+      - type: "mq"
+      
+  - images : 
+    - "images/portfolio/item-1.png"
+    eventURL : "#"
+    eventType:
+      - type: "lol"
+      
+  - images : 
+    - "images/portfolio/item-3.png"
+    eventURL : "#"
+    eventType:
+      - type: "mq"
+      - type: "fs"
+      - type: "lol"
+      
+  - images : 
+    - "images/portfolio/item-7.png"
+    eventURL : "#"
+    eventType:
+      - type: "fs"

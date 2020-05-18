@@ -1,0 +1,58 @@
+# List of Event Types  
+list:
+  - title : "Monthly Quiz"
+    type : "mq"
+    
+  - title : "Flagship Event"
+    type : "fs"
+    
+  - title : "asd"
+    type : "lol"
+
+# List of Events, update each year. 
+item:
+  - images : 
+    - "images/portfolio/item-1.png"
+    - "images/portfolio/item-2.png"
+    - "images/portfolio/item-3.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : Stargazing Nights
+    eventType:
+      - type: "mq"
+      - type: "fs"
+
+  - images : 
+    - "images/portfolio/item-2.png"
+    eventURL : "amazon-increase-income.2"
+    eventTitle : "amazon-increase-income.2"
+    eventType:
+      - type: "lol"
+      
+  - images : 
+    - "images/portfolio/item-3.png"
+    eventURL : "#"
+    eventTitle : Outdoor Sessions
+    eventType:
+      - type: "fs"
+      
+  - images :
+    -  "images/portfolio/item-6.png"
+    eventURL : "#"
+    eventTitle : Informative Sessions
+    eventType:
+      - type: "mq"
+      - type: "lol"
+      
+  - images : 
+    - "images/portfolio/item-8.png"
+    eventURL : "#"
+    eventTitle : "Article Writing Competition"
+    eventType:
+      - type: "fs"
+      
+  - images : 
+    - "images/portfolio/item-5.png"
+    eventURL : "#"
+    eventTitle : "Quiz Competition"
+    eventType:
+      - type: "mq"
