@@ -11,7 +11,7 @@
             </script>
             {{ range .Site.Data.astronomy_club.activities.step }}
             <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-                <img src="{{ .icon | absURL }}" class="mb-4" alt="icon">
+                <img src="{{ .icon | absURL }}" class="mb-4" alt="icon" height="100px" width="100px">
                 <h4 class="mb-4">{{ .title }}</h4>
                 <p>{{ .content | markdownify }}</p>
             </div>

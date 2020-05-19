@@ -2,7 +2,7 @@
 title: "About"
 date: 2019-05-12T12:14:34+06:00
 description: "This is meta description."
-authorImage : "images/astro_logo.png"
+authorImage : "images/astro_logo_blackbg.png"
 type : "astronomy_club/about"
 layout: "list.html"
 ---
