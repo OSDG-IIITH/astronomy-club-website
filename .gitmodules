@@ -1,0 +1,4 @@
+[submodule "themes/kross-hugo-portfolio-template/"] 
+  path = themes/kross-hugo-portfolio-template/
+  url = git clone https://github.com/themefisher/kross-hugo.git 
+
