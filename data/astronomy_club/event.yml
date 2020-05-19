@@ -1,13 +1,17 @@
 # List of Event Types  
 list:
-  - title : "Monthly Quiz"
+  - title : "Informative Session"
     type : "mq"
     
-  - title : "Flagship Event"
+  - title : "Stargazing Nights"
     type : "fs"
     
-  - title : "asd"
+  - title : "Star Party"
     type : "lol"
+
+  - title : "Miscellaneous"
+    type : "lol"
+
 
 # List of Events, update each year. 
 item:

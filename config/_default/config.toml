@@ -16,7 +16,7 @@ summaryLength = "10"
   URL = "plugins/themify-icons/themify-icons.css"
 
   # JS Plugins
-  [[params.plugins.js]]
+  [[params.plugins.js]] 
   URL = "plugins/jQuery/jquery.min.js"
   [[params.plugins.js]]
   URL = "plugins/bootstrap/bootstrap.min.js"
@@ -75,11 +75,6 @@ summaryLength = "10"
     weight = 2
     
   [[menu.astronomy_club]]
-    name = "Archives"
-    URL = "astronomy_club/archive"
-    weight = 3
-    
-  [[menu.astronomy_club]]
     name = "Events"
     URL = "astronomy_club/events"
     weight = 4
@@ -92,6 +87,7 @@ summaryLength = "10"
 [params]
 logo = "images/logo.png"
 astronomy_club_logo = "images/astro_logo.png"
+astronomy_club_logo_blackbg = "images/astro_logo_blackbg.png"
 club_nameURL = "https://www.clubs.iiit.ac.in/clubs/club_name"
 theme_color = "#41228e"
 
