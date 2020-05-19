@@ -30,15 +30,13 @@
                 <div class="shadow-down mb-4">
                     <img src="{{.Params.AuthorImage | absURL }}" alt="author" class="img-fluid w-100 rounded-lg border-thick border-white">
                 </div>
-                <img src="{{.Params.AuthorSignature | absURL }}" alt="signature" class="img-fluid">
-                <h4>{{ .Params.Author }}</h4>
             </div>
         </div>
     </div>
 </section>
 <!-- /about -->
 
-{{ partial "club_name/activities.html" . }} {{ partial "club_name/team.html" . }}
+{{ partial "astronomy_club/activities.html" . }} {{ partial "astronomy_club/team.html" . }}
 
 <!-- <section class="section">
     <div class="container">

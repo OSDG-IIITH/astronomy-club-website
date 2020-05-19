@@ -16,7 +16,7 @@ summaryLength = "10"
   URL = "plugins/themify-icons/themify-icons.css"
 
   # JS Plugins
-  [[params.plugins.js]]
+  [[params.plugins.js]] 
   URL = "plugins/jQuery/jquery.min.js"
   [[params.plugins.js]]
   URL = "plugins/bootstrap/bootstrap.min.js"
@@ -73,11 +73,6 @@ summaryLength = "10"
     name = "About"
     URL = "astronomy_club/about"
     weight = 2
-    
-  [[menu.astronomy_club]]
-    name = "Archives"
-    URL = "astronomy_club/archive"
-    weight = 3
     
   [[menu.astronomy_club]]
     name = "Events"
