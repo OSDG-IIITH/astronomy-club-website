@@ -23,7 +23,6 @@ item:
     eventTitle : Stargazing Nights
     eventType:
       - type: "mq"
-      - type: "fs"
 
   - images : 
     - "images/portfolio/item-2.png"
@@ -34,29 +33,28 @@ item:
       
   - images : 
     - "images/portfolio/item-3.png"
-    eventURL : "#"
+    eventURL : "amazon-increase-income.1"
     eventTitle : Outdoor Sessions
     eventType:
       - type: "fs"
       
   - images :
     -  "images/portfolio/item-6.png"
-    eventURL : "#"
+    eventURL : "amazon-increase-income.1"
     eventTitle : Informative Sessions
-    eventType:
-      - type: "mq"
-      - type: "lol"
-      
-  - images : 
-    - "images/portfolio/item-8.png"
-    eventURL : "#"
-    eventTitle : "Article Writing Competition"
     eventType:
       - type: "fs"
       
   - images : 
+    - "images/portfolio/item-8.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : "Article Writing Competition"
+    eventType:
+      - type: "mq"
+      
+  - images : 
     - "images/portfolio/item-5.png"
-    eventURL : "#"
+    eventURL : "amazon-increase-income.1"
     eventTitle : "Quiz Competition"
     eventType:
       - type: "mq"
