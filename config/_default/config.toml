@@ -74,13 +74,13 @@ summaryLength = "10"
     URL = "astronomy_club/about"
     weight = 2
     
-    [[menu.astronomy_club]]
+  [[menu.astronomy_club]]
     name = "Events"
     URL = "astronomy_club/events"
     weight = 3
     
   [[menu.astronomy_club]]
-    name = "Archive"
+    name = "Archives"
     URL = "astronomy_club/archive"
     weight = 4
   
