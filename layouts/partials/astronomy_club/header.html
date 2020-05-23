@@ -7,11 +7,9 @@
 
         <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item" id="Home">
                     <a class="nav-link" href="{{ .Site.BaseURL }}/astronomy_club">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
                 </li>
-
-
                 {{ range .Site.Menus.astronomy_club }} {{ if .HasChildren }}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{ .Name }}  </a>
@@ -21,7 +19,7 @@
                     </div>
                 </li>
                 {{ else }}
-                <li class="nav-item">
+                <li class="nav-item" id="{{.Name}}">
                     <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
                 </li>
                 {{ end }} {{ end }}
