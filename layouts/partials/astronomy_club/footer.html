@@ -13,8 +13,8 @@
         <div class="bg-white rounded text-center p-5">
           <h3 class="mb-80">Coordinators</h3>
             <ul> 
-              <li> <h4> Ansh Puvvada</h4> <p> ansh.puvvada@students.iiit.ac.in </p></li>
-              <li> <h4> Yash Chaurasia </h4> <p> yash.chaurasia@students.iiit.ac.in </p></li>
+                <h4> Ansh Puvvada</h4> <p> ansh.puvvada@students.iiit.ac.in </p>
+                 <h4> Yash Chaurasia </h4> <p> yash.chaurasia@students.iiit.ac.in </p>
             </ul>
         
         
@@ -67,8 +67,6 @@
 </footer> -->
 <!-- /footer -->
 
-{{ "<!-- Google Map API -->" | safeHTML }}
-<script src="{{ .Site.Params.gmapAPI | absURL }}"></script>
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>

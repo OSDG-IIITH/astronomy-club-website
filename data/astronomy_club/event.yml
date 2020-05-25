@@ -1,16 +1,16 @@
 # List of Event Types  
 list:
   - title : "Informative Session"
-    type : "mq"
+    type : "info"
     
   - title : "Stargazing Nights"
-    type : "fs"
+    type : "nights"
     
   - title : "Star Party"
-    type : "lol"
+    type : "party"
 
   - title : "Miscellaneous"
-    type : "lol"
+    type : "misc"
 
 
 # List of Events, update each year. 
@@ -18,25 +18,24 @@ item:
   - images : 
     - "images/portfolio/item-1.png"
     - "images/portfolio/item-2.png"
-    - "images/portfolio/item-3.png"
     eventURL : "amazon-increase-income.1"
     eventTitle : Stargazing Nights
     eventType:
-      - type: "mq"
+      - type: "info"
 
   - images : 
     - "images/portfolio/item-2.png"
     eventURL : "amazon-increase-income.2"
     eventTitle : "amazon-increase-income.2"
     eventType:
-      - type: "lol"
+      - type: "nights"
       
   - images : 
     - "images/portfolio/item-3.png"
     eventURL : "amazon-increase-income.1"
     eventTitle : Outdoor Sessions
     eventType:
-      - type: "fs"
+      - type: "party"
       
   - images :
     -  "images/portfolio/item-6.png"
