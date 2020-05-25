@@ -1,35 +1,33 @@
 {{ define "main" }}
 
 <!-- page title -->
-<section class="page-title-alt bg-primary position-relative overflow-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-white font-tertiary">{{ .Title }}</h1>
-            </div>
-        </div>
+<!-- <section class="page-title-alt bg-primary position-relative overflow-hidden"> -->
+<!-- background shapes -->
+<div class="hero-image">
+    <div class="hero-text">
+        <h1 class="text-white font-tertiary" style="visibility: hidden;font-family: procrastinatingpixie;">{{ .Title | safeHTML }}</h1>
     </div>
-    <!-- background shapes -->
-    <img src="{{`images/illustrations/leaf-bg-top.svg`| relURL}}" alt="illustrations" class="bg-shape-1 w-100">
+</div>
+<!-- <img src="{{`images/illustrations/leaf-bg-top.svg`| relURL}}" alt="illustrations" class="bg-shape-1 w-100">
     <img src="{{`images/illustrations/dots-group-sm.svg`| relURL}}" alt="illustrations" class="bg-shape-2">
     <img src="{{`images/illustrations/leaf-yellow.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
     <img src="{{`images/illustrations/leaf-orange.svg`| relURL}}" alt="illustrations" class="bg-shape-4">
-    <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-5">
-    <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-6">
-</section>
+    <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-5"> -->
+<!-- <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-6"> -->
+<!-- </section> -->
 <!-- /page title -->
 
 <!-- about -->
 <section class="section pt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                {{ .Content }}
-            </div>
-            <div class="col-md-4 text-center drag-lg-top">
-                <div class="shadow-down mb-4">
-                    <img src="{{.Params.AuthorImage | absURL }}" alt="author" class="img-fluid w-100 rounded-lg border-thick border-white">
-                </div>
+            <div class="col-12" style="font-size:20px;">
+                <i>{{.Params.quote}}</i>
+                <br />
+                <br />
+                <p style="font-size: 25px;">
+                    We are one of the student clubs at IIIT-Hyderabad. We are Astronomy enthusiasts who love to stargaze and also educate others about it.
+                </p>
             </div>
         </div>
     </div>

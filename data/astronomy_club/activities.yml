@@ -1,12 +1,12 @@
 step:
   - title : "Stargazing Nights"
     icon : "images/icons/stargazing.svg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "We conduct weekly stargazing sessions atop Tarangini(Amphitheatre) or Himalayan Amphitheatre"
     
   - title : "Star Party"
     icon : "images/icons/star_party"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "We travel to low light polluted areas to enjoy a night of stargazing and photography."
     
   - title : "Informative Sessions"
     icon : "images/icons/infosession.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "We conduct these sessions to familiarize people with the latest updates in astronomy and related fields."

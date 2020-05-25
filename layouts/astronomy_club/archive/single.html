@@ -1,6 +1,13 @@
 {{ define "main" }}
 
-  {{ partial "astronomy_club/page-title.html" . }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+    {{- partial "preloader.html" . -}} 
+    {{- partial "astronomy_club/header.html" . -}} 
+
 
   <section class="section">
     <div class="container">
@@ -16,5 +23,9 @@
       </div>
     </div>
   </section>
+</body>
+
+    {{- partial "astronomy_club/footer.html" . -}}
+</html>
 
 {{ end }}
