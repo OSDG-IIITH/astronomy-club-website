@@ -2,16 +2,13 @@
 banner:
   title : "Hi! This is Astronomy Club"
   socialLinks:
-    - icon : "ti-facebook"
+    - icon : "fab fa-facebook-square"
       URL : "#"
       
-    - icon : "ti-instagram"
+    - icon : "fab fa-whatsapp"
       URL : "#"
       
-    - icon : "ti-dribbble"
-      URL : "#"
-      
-    - icon : "ti-twitter"
+    - icon : "far fa-envelope"
       URL : "#"
 
 # about
