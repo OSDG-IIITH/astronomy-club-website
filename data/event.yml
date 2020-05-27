@@ -1,0 +1,59 @@
+# List of Event Types  
+list:
+  - title : "Informative Session"
+    type : "info"
+    
+  - title : "Stargazing Nights"
+    type : "nights"
+    
+  - title : "Star Party"
+    type : "party"
+
+  - title : "Miscellaneous"
+    type : "misc"
+
+
+# List of Events, update each year. 
+item:
+  - images : 
+    - "images/portfolio/item-1.png"
+    - "images/portfolio/item-2.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : Stargazing Nights
+    eventType:
+      - type: "info"
+
+  - images : 
+    - "images/portfolio/item-2.png"
+    eventURL : "amazon-increase-income.2"
+    eventTitle : "amazon-increase-income.2"
+    eventType:
+      - type: "nights"
+      
+  - images : 
+    - "images/portfolio/item-3.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : Outdoor Sessions
+    eventType:
+      - type: "party"
+      
+  - images :
+    -  "images/portfolio/item-6.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : Informative Sessions
+    eventType:
+      - type: "misc"
+      
+  - images : 
+    - "images/portfolio/item-8.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : "Article Writing Competition"
+    eventType:
+      - type: "misc"
+      
+  - images : 
+    - "images/portfolio/item-5.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : "Quiz Competition"
+    eventType:
+      - type: "misc"

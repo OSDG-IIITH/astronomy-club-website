@@ -1,0 +1,9 @@
+socialLinks:
+  - icon : "fab fa-facebook"
+    URL : "#"
+    
+  - icon : "fab fa-whatsapp"
+    URL : "#"
+    
+  - icon : "far fa-envelope"
+    URL : "#"
