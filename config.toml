@@ -1,0 +1,100 @@
+# default configuration
+baseURL = "http://examplesite.com"
+languageCode = "en-us"
+summaryLength = "10"
+theme = "kross-hugo"
+title = "IIIT-H Astronomy Club"
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/fontawesome/fontawesome.min.css"
+[[params.plugins.css]]
+URL = "plugins/custom/css/style.css"
+
+# js plugin
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+
+
+# menu
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+
+[[menu.main]]
+URL = "events"
+name = "Events"
+weight = 2
+
+[[menu.main]]
+URL = "archive"
+name = "Archives"
+weight = 3
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+
+
+# default parameters
+[params]
+home = "Home"
+logo = "images/astro_logo.png"
+# theme color
+theme_color = "#41228e"
+# contact info
+phone = "+91 123456789"
+email = "astronomyclub@students.iiit.ac.in"
+address = "42nd and Raven, Go to Hell Street, Canada"
+# meta description
+author = "John Doe"
+description = "What do you wanna know?"
+
+# contact
+[params.contact]
+enable = true
+
+[[params.contact.coordinator]]
+name = "Ansh Puvvada"
+email = "ansh.puvvada@students.iiit.ac.in"
+
+[[params.contact.coordinator]]
+name = "Yash Chaurasia"
+email = "yash.chaurasia@students.iiit.ac.in"
+
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+URL = "#"
+
+[[params.social]]
+icon = "ti-instagram"
+URL = "#"
+
+[[params.social]]
+icon = "ti-dribbble"
+URL = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+URL = "#"
