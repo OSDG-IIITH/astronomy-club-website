@@ -7,51 +7,28 @@
 
 ## New Contributors:
 1. Clone the repo on your local machine
-2. Install hugo and the associated theme as mentioned below.
-3. Try to create a sample club and complete all the steps
-4. Find issues with the club website
-5. Provide ideas and suggestions for improvement
-6. Contribute by providing content or help in designing the pages 
+2. Install hugo (v0.59 and above).
+3. Find issues with the club website
+4. Provide ideas and suggestions for improvement
+5. Contribute by providing content or help in designing the pages 
 
 # Club Website Creation 
 
 The website is built with Hugo. 
 
-## Creating a site for your club
+## Updating Content or Design
 
-1. Go to the `content` folder and create a folder for your club. 
-2. A sample club has been given, so copy all the files in that sample club to the newly created folder.
-3. `grep -r club_name` in the content directory and change every instance of it in your folder to that of your folder name
-4. Go back to the root directory
-5. Now go to `layouts` folder,
-6. Cooy the sample folder given.
-7. Rename it to be your club name. 
-
-2. Rename it to the desired name. The path reach your clubs website now is `localhost:xxxx/clubs/club_name`. (xxx is your port number on the local machine. Typcially it is 1313 for this.)
-3. `grep -r club_name` in the content directory and change every instance of it in your folder to that of your folder name
-
-1. Go back to the root.
-2. cd into `data` and copy the sample `club_name` folder.
-3. Rename it to the same folder name you gaver earlier for content
-4. `grep -r club_name` in the data directory and change every instance of it in your folder to that of your folder name
+1. Go to the `content` folder to update content like event content
+2. Go to `layouts` folder to update the webpage design
+2. GO to `data` to update events,images, site params,etc 
 5. `team.yml` contains the memebers of the club, modify it accordingly.
-6. `activities.yml` contains the list of major events your club does and gets listed in the homepage of your club. 
+6. `activities.yml` contains the list of major events the club does and gets listed in the homepage of your club. 
 7. `event.yml` shows a list of events conducted and gets displayed as a gallery, on the events page. 
 5. Modify the `title` and `type` in `event.yml` to reflect the events in `activities.yml`.
 
-1. Go to `config/_default/config.toml`
-2. Copy the `menu.club_name` section and paste it again.
-3. In the pasted section replace the `club_name` with your club
-4. Go to `layouts` and cd into your club directory, and `grep -r "header"`.
-5. Replace every instance of `club_name` with that of your club name. 
-
 ## Deploying the site on the local machine 
-
 1. We use, `Hugo` a static site generater to generate the website. 
 2. Install [Hugo](https://gohugo.io/getting-started/installing/) 
-3. Install the theme, instructions available [here](https://github.com/themefisher/kross-hugo). 
-4. Make sure to install the theme into the right dir, ```git clone https://github.com/themefisher/kross-hugo.git themes/kross-hugo-portfolio-template/   ```
-
 5. Run `hugo server` to run the server on your local machine. Execute this command in the root directory of the project. 
 6. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site.  
 7. Make sure to have the latest version Hugo installed. 
@@ -81,4 +58,3 @@ The names and the rest are pretty self-explanatory. In case you don't like it, y
 ## Issues or Doubts
 
 Raise a GitHub issue, and I'll get back to you within a day. 
-

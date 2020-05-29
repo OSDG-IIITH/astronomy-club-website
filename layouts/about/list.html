@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="hero-image">
+    <div class="hero-text">
+        <h1 class="text-white font-tertiary" style="visibility: hidden;font-family: procrastinatingpixie;">{{ .Title | safeHTML }}</h1>
+    </div>
+</div>
+<!-- about -->
+<section class="section pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" style="font-size:20px;">
+                <p class="text-muted text-center"><em>{{.Params.quote}}</em></p>
+                <br />
+                <br />
+                <p style="font-size: 25px;">
+                    We are one of the student clubs at IIIT-Hyderabad. We are Astronomy enthusiasts who love to stargaze and also educate others about it.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /about -->
+
+{{ partial "activities.html" . }} {{ partial "team.html" . }} {{ end }}
