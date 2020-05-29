@@ -1,0 +1,14 @@
+
+
+step:
+  - title : "Stargazing Nights"
+    icon : "images/icons/stargazing.svg"
+    content : "We conduct weekly stargazing sessions atop Tarangini(Amphitheatre) or Himalayan Amphitheatre"
+    
+  - title : "Star Party"
+    icon : "images/icons/star_party"
+    content : "We travel to low light polluted areas to enjoy a night of stargazing and photography."
+    
+  - title : "Informative Sessions"
+    icon : "images/icons/infosession.png"
+    content : "We conduct these sessions to familiarize people with the latest updates in astronomy and related fields."

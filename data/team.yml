@@ -1,12 +1,12 @@
 member:
-  - title : "Jack Schenziwe"
-    image : "images/team/member-1.png"
-    designation : "Project Manager"
-    
-  - title : "Julias Carlie"
-    image : "images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "images/team/member-3.png"
-    designation : "Designer"
+  - title : "Yash Chaurasia"
+    image : "images/team/yash_chaurasia.jpg"
+    designation : "Club Co-ordinator"
+
+  - title : "Tanmay Kumar Sinha"
+    image : "images/team/tanmay_kumar.jpg"
+    designation : "Club Co-ordinator"
+
+  - title : "Ansh Puvvada"
+    image : "images/team/ansh_puvvada.jpg"
+    designation : "Club Co-ordinator"
