@@ -1,6 +1,7 @@
 {{ define "main" }}
-<div class="hero-image">
+<div class="hero-image" style="  background-image: url({{`images/backgrounds/about.jpeg`| relURL}});">
     <div class="hero-text">
+
         <h1 class="text-white font-tertiary" style="visibility: hidden;font-family: procrastinatingpixie;">{{ .Title | safeHTML }}</h1>
     </div>
 </div>
