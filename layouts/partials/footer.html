@@ -13,14 +13,10 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5">
           <h3 class="mb-80">Coordinators</h3>
-          <ul>
             {{range .Site.Params.contact.coordinator }}
-            <li>
               <h4>{{.name}}</h4>
               <p>{{.email}}</p>
-            </li>
             {{end}}
-          </ul>
         </div>
       </div>
     </div>
