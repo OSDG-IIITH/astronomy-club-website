@@ -434,7 +434,7 @@ textarea.form-control {
 @media(max-width:991px) {
     .navigation {
         padding: 0px;
-        background: var(--primary-color)
+        background: black
     }
 }
 

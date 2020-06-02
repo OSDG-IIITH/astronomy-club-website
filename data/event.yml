@@ -16,44 +16,81 @@ list:
 # List of Events, update each year. 
 item:
   - images : 
-    - "images/portfolio/item-1.png"
-    - "images/portfolio/item-2.png"
-    eventURL : "amazon-increase-income.1"
+    - "images/portfolio/star_gazing1.jpg"
     eventTitle : Stargazing Nights
     eventType:
-      - type: "info"
+      - type: "nights"
 
   - images : 
-    - "images/portfolio/item-2.png"
-    eventURL : "amazon-increase-income.2"
-    eventTitle : "amazon-increase-income.2"
+    - "images/portfolio/star_gazing2.jpg"
+    eventTitle : Stargazing Nights
     eventType:
       - type: "nights"
       
   - images : 
-    - "images/portfolio/item-3.png"
-    eventURL : "amazon-increase-income.1"
-    eventTitle : Outdoor Sessions
+    - "images/portfolio/info_session2.jpg"
+    eventTitle : "Messier Meet"
+    eventType:
+      - type: "info"
+  
+  - images : 
+    - "images/portfolio/info_session1.jpg"
+    eventTitle : "Intro Meet"
+    eventType:
+      - type: "info"
+  
+  - images : 
+    - "images/portfolio/star_party1.jpeg"
+    eventTitle : Star Party @ Kotepally
+    eventType:
+      - type: "party"
+  
+  - images : 
+    - "images/portfolio/star_party2.jpeg"
+    eventTitle : Star Party @ Kotepally
+    eventType:
+      - type: "party"
+
+  - images : 
+    - "images/portfolio/star_party4.jpeg"
+    eventTitle : Star Party @ Kotepally
+    eventType:
+      - type: "party"
+  - images : 
+    - "images/portfolio/star_party7.jpg"
+    eventTitle : Star Party @ Kotepally
     eventType:
       - type: "party"
       
   - images :
-    -  "images/portfolio/item-6.png"
-    eventURL : "amazon-increase-income.1"
-    eventTitle : Informative Sessions
+    -  "images/portfolio/eclipse2.png"
+    eventTitle : Lunar Eclipse
     eventType:
       - type: "misc"
+
+  - images :
+    -  "images/portfolio/eclipse.png"
+    eventTitle : Lunar Eclipse
+    eventType:
+      - type: "misc"
+
+  - images :
+    -  "images/portfolio/eclipse3.jpg"
+    eventTitle : Lunar Eclipse
+    eventType:
+      - type: "nights"    
+      - type: "misc"    
+
+  # - images : 
+  #   - "images/portfolio/item-8.png"
+  #   eventURL : "amazon-increase-income.1"
+  #   eventTitle : "Article Writing Competition"
+  #   eventType:
+  #     - type: "misc"
       
-  - images : 
-    - "images/portfolio/item-8.png"
-    eventURL : "amazon-increase-income.1"
-    eventTitle : "Article Writing Competition"
-    eventType:
-      - type: "misc"
-      
-  - images : 
-    - "images/portfolio/item-5.png"
-    eventURL : "amazon-increase-income.1"
-    eventTitle : "Quiz Competition"
-    eventType:
-      - type: "misc"
+  # - images : 
+  #   - "images/portfolio/item-5.png"
+  #   eventURL : "amazon-increase-income.1"
+  #   eventTitle : "Quiz Competition"
+  #   eventType:
+  #     - type: "misc"
