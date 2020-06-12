@@ -1,0 +1,54 @@
+item:
+  - images : 
+    - "images/portfolio/star_gazing1.jpg"
+
+  - images : 
+    - "images/portfolio/star_gazing2.jpg"
+      
+  - images : 
+    - "images/portfolio/info_session2.jpg"
+  
+  - images : 
+    - "images/portfolio/info_session1.jpg"
+  
+  - images : 
+    - "images/portfolio/star_party1.jpeg"
+  
+  - images : 
+    - "images/portfolio/star_party2.jpeg"
+
+  - images : 
+    - "images/portfolio/star_party3.jpeg"
+
+  - images : 
+    - "images/portfolio/star_party4.jpeg"
+
+  - images : 
+    - "images/portfolio/star_party5.jpeg"
+  
+  - images : 
+    - "images/portfolio/star_party6.jpeg"
+
+  - images : 
+    - "images/portfolio/star_party7.jpg"
+
+  - images : 
+    - "images/portfolio/star_party8.jpg"
+
+  - images : 
+    - "images/portfolio/star_party9.jpg"
+  
+  - images : 
+    - "images/portfolio/star_party10.jpg"
+
+  - images : 
+    - "images/portfolio/star_party11.jpg"
+
+  - images :
+    -  "images/portfolio/eclipse2.png"
+
+  - images :
+    -  "images/portfolio/eclipse.png"
+
+  - images :
+    -  "images/portfolio/eclipse3.jpg"

@@ -1,46 +1,39 @@
 {{ if .Site.Params.contact.enable }}
 <!-- contact -->
 <section class="section section-on-footer" data-background="{{`images/backgrounds/bg-dots.png` | absURL}}">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
-      </div>
-      <div class="col-12 text-center">
-        <h3 class='d-none d-md-block'>{{.Site.Params.email}}</h3>
-        <h4 class='d-block d-md-none'>{{.Site.Params.email}}</h3>
-      </div>
-      <div class="col-lg-8 mx-auto">
-        <div class="bg-white rounded text-center p-5">
-          <h3 class="mb-80">Coordinators</h3>
-            {{range .Site.Params.contact.coordinator }}
-              <h4>{{.name}}</h4>
-              <p>{{.email}}</p>
-            {{end}}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Contact Info</h2>
+            </div>
+            <div class="col-12 text-center">
+                <h3 class='d-none d-md-block'>{{.Site.Params.email}}</h3>
+                <h4 class='d-block d-md-none'>{{.Site.Params.email}}</h3>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <div class="bg-white rounded text-center p-5">
+                    <h3 class="mb-80">Coordinators</h3>
+                    {{range .Site.Params.contact.coordinator }}
+                    <h4>{{.name}}</h4>
+                    <p>{{.email}}</p>
+                    {{end}}
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 <!-- /contact -->
-{{ end }}
-
-{{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range .Site.Params.plugins.js}}
+{{ end }} {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>
-{{ end }}
-{{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
+{{ end }} {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-{{ "<!-- google analitycs -->" | safeHTML }}
 <script>
-  var title = document.getElementsByClassName("text-white");
-  if (title[0].innerHTML !== "Hi! This is the Astronomy Club") {
-    var nav_li = document.getElementById(title[0].innerHTML);
-    nav_li.classList.add("active");
-  } else {
-    var nav_li = document.getElementById("Home");
-    nav_li.classList.add("active");
-  }
-  
+    var title = document.getElementsByClassName("text-white");
+    if (title[0].innerHTML !== "Astronomy Club") {
+        var nav_li = document.getElementById(title[0].innerHTML);
+        nav_li.classList.add("active");
+    } else {
+        var nav_li = document.getElementById("Home");
+        nav_li.classList.add("active");
+    }
 </script>

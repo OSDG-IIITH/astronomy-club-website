@@ -1,5 +1,10 @@
-{{ define "main" }} {{ partial "page-title.html" . }}
+{{ define "main" }}
+<div class="hero-image" style="  background-image: url({{`images/backgrounds/events.png`| relURL}});">
+    <div class="hero-text">
 
+        <h1 class="text-white font-tertiary" style="text-transform: uppercase;">{{ .Title | safeHTML }}</h1>
+    </div>
+</div>
 <!-- portfolio -->
 <section class="section">
     <div class="container">
@@ -19,14 +24,13 @@
         </div>
         <div class="row shuffle-wrapper">
             {{ range .Site.Data.event.item }}
-            <div class="col-lg-4 col-6 mb-4 shuffle-item"
-                data-groups="[{{range $index, $element:= .eventType }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.type}}&quot;{{ end }}]">
+            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .eventType }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.type}}&quot;{{ end }}]">
                 <div class="position-relative rounded hover-wrapper">
                     {{ range .images}}
                     <img src="{{. | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block"> {{ end }}
                     <div class="hover-overlay">
                         <div class="hover-content">
-                                <p class="btn btn-light btn-sm">{{ .eventTitle }}</p>
+                            <p class="btn btn-light btn-sm">{{ .eventTitle }}</p>
                         </div>
                     </div>
                 </div>
