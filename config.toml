@@ -39,8 +39,8 @@ name = "Events"
 weight = 2
 
 [[menu.main]]
-URL = "archive"
-name = "Archives"
+URL = "gallery"
+name = "Gallery"
 weight = 3
 
 [[menu.main]]
@@ -56,12 +56,7 @@ logo = "images/astro_logo.png"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+91 123456789"
 email = "astronomyclub@students.iiit.ac.in"
-address = "42nd and Raven, Go to Hell Street, Canada"
-# meta description
-author = "John Doe"
-description = "What do you wanna know?"
 
 # contact
 [params.contact]
@@ -74,26 +69,3 @@ email = "ansh.puvvada@students.iiit.ac.in"
 [[params.contact.coordinator]]
 name = "Yash Chaurasia"
 email = "yash.chaurasia@students.iiit.ac.in"
-
-
-# preloader
-[params.preloader]
-enable = true
-preloader = "" # use png, jpg, svg or gif format
-
-# social site
-[[params.social]]
-icon = "ti-facebook"
-URL = "#"
-
-[[params.social]]
-icon = "ti-instagram"
-URL = "#"
-
-[[params.social]]
-icon = "ti-dribbble"
-URL = "#"
-
-[[params.social]]
-icon = "ti-twitter-alt"
-URL = "#"

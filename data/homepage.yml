@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Hi! This is the Astronomy Club"
+  title : "Astronomy Club"
 
 # about
 about:
@@ -8,7 +8,7 @@ about:
   content : "We at Astronomy Club @ IIITH aim to improve the interest about astronomy among students. We organise events like StarGazing Sessions, Informative Sessions, Messier Marathons, Star Parties and more."
   button:
     btnText :  "Know More"
-    URL : "/clubs/astronomy_club/about"
+    URL : "/about"
 
 # Upcoming Events 
 upcoming_events: 
