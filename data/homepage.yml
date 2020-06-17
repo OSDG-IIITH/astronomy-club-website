@@ -10,21 +10,56 @@ about:
     btnText :  "Know More"
     URL : "/about"
 
+
 # Upcoming Events 
 upcoming_events: 
   enable : true
   item:
-    - image : "images/portfolio/item-1.png"
-      projectURL : "#"
+    - date : Jun 21, 2020
+      eventTitle : Annular Solar Eclipse
+      image : "images/portfolio/solar_eclipse_icon.jpg"
       
-    - image : "images/portfolio/item-2.png"
-      projectURL : "#"
+    - date : Jul 4, 2020
+      eventTitle : Penumbral Lunar Eclipse
+      image : "images/portfolio/lunar_eclipse_icon.jpg"
+
+    - date : Aug 12, 2020
+      eventTitle : Perseids Meteor Shower
+      image : "images/portfolio/meteor_shower_icon.jpg"
+    
+    - date : Oct 8, 2020
+      eventTitle : Draconids Meteor Shower
+      image : "images/portfolio/meteor_shower_icon.jpg"
+            
+    - date : Oct 20, 2020
+      eventTitle : Orionids Meteor Shower
+      image : "images/portfolio/meteor_shower_icon.jpg"
+    
+    - date : Nov 29, 2020
+      eventTitle : Penumbral Lunar Eclipse
+      image : "images/portfolio/lunar_eclipse_icon.jpg"
+
+    - date : Nov 17, 2020
+      eventTitle : Loenids Meteor Shower
+      image : "images/portfolio/meteor_shower_icon.jpg"
+
+    - date : Nov 29, 2020
+      eventTitle : Penumbral Lunar Eclipse
+      image : "images/portfolio/lunar_eclipse_icon.jpg"
       
-    - image : "images/portfolio/item-3.png"
-      projectURL : "#"
+    - date : Dec 13, 2020
+      eventTitle : Geminids Meteor Shower
+      image : "images/portfolio/meteor_shower_icon.jpg"
+
+    - date : Dec 14, 2020
+      eventTitle : Total Solar Eclipse
+      image : "images/portfolio/solar_eclipse_icon.jpg"
       
-    - image : "images/portfolio/item-4.png"
-      projectURL : "#"
+    - date : Dec 21, 2020
+      eventTitle : "Jupiter and Saturn Conjuction"
+      image : "images/portfolio/conjuction_icon.jpeg"
+
+    - date : Dec 22, 2020
+      eventTitle : Ursids Meteor Shower
+      image : "images/portfolio/meteor_shower_icon.jpg"
       
-    - image : "images/portfolio/item-5.png"
-      projectURL : "#"
